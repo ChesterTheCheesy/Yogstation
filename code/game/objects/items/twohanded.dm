@@ -295,7 +295,7 @@
 	wieldsound = 'sound/weapons/saberon.ogg'
 	unwieldsound = 'sound/weapons/saberoff.ogg'
 	hitsound = "swing_hit"
-	armour_penetration = 35
+	armour_penetration = 65
 	item_color = "green"
 	light_color = "#00ff00"//green
 	attack_verb = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
