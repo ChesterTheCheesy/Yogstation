@@ -98,7 +98,7 @@
 	throw_range = 5
 	sharpness = IS_SHARP
 	embedding = list("embed_chance" = 75, "embedded_impact_pain_multiplier" = 10)
-	armour_penetration = 35
+	armour_penetration = 80
 	block_chance = 50
 
 /obj/item/melee/transforming/energy/sword/transform_weapon(mob/living/user, supress_message_text)
@@ -135,6 +135,7 @@
 	icon_state_on = "esaw_1"
 	item_color = null //stops icon from breaking when turned on.
 	hitcost = 75 //Costs more than a standard cyborg esword
+	armour_penetration = 35
 	w_class = WEIGHT_CLASS_NORMAL
 	sharpness = IS_SHARP
 	light_color = "#40ceff"
